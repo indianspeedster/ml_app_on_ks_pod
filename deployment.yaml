@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: flask-test-app
-        image: 10.10.1.1:5000/my-app:latest
+        image: 10.10.1.1:5000/my-app:0.0.2
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
