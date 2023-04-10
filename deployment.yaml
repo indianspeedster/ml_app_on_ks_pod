@@ -10,7 +10,7 @@ spec:
     port: 6000
     targetPort: 5000
     nodePort: 32000
-  type: LoadBalancer
+  type: NodePort
 
 ---
 apiVersion: apps/v1
